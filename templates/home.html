@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'webscraping/static/images/automation.jpg' %}" <title>home</title>
+    <link rel="stylesheet" href="{% static 'css/all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+
+
+<body style="background: url('/static/images/automation.jpg'); background-position: inherit;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="offset-7 col-sm-5">
+
+                <h3 class="pt-5 text-center text-white ca-font">Browser Automation & Web Scraping</h3>
+
+                <p class="text-white text-center ms-3 pt-5" style="font-family: 'Courgette';">This project is the combination of Browser Automation(selenium Web Driver) & Web Scraping(Beautiful Soup). The goal of the project is to navigate to the result page through Selenium Web Driver where the data is displayed. In the next step
+                    we extract our required data with beautiful soup.
+                </p>
+                <form action="automate" class='text-center'>
+                    <input type="submit" value="Automate" class="btn btn-success btn-lg ">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
